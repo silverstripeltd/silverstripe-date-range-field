@@ -4,8 +4,9 @@ namespace DeptInternalAffairsNZ\SilverStripe\Forms;
 
 use SilverStripe\Core\Convert;
 use SilverStripe\ORM\DataQuery;
+use SilverStripe\ORM\Filters\SearchFilter;
 
-class DateRangeFilter extends \SilverStripe\ORM\Filters\SearchFilter
+class DateRangeFilter extends SearchFilter
 {
 	
 	private $min, $max;
@@ -105,5 +106,5 @@ class DateRangeFilter extends \SilverStripe\ORM\Filters\SearchFilter
 	{
 		return true;
 	}
-	
+
 }

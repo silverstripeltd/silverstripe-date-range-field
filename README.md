@@ -13,11 +13,11 @@ Use composer:
 ## Usage
 
 When configuring `searchable_fields` for a `DataObject` you can make use of the `DateRangeField` and `DateRangeFilter` like so:
-
+    
     private static $searchable_fields = array(
         'Created' => array(
             'title' => 'created date',
-            'field' => \DeptInternalAffairsNZ\SilverStripe\Forms\DateRangeField::class,
-            'filter' => \DeptInternalAffairsNZ\SilverStripe\Forms\DateRangeFilter::class,
+            'field' => DateRangeField::class,
+            'filter' => DateRangeFilter::class,
         )
     );
