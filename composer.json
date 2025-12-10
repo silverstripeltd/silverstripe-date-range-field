@@ -9,8 +9,8 @@
             "email": "james.s.goodman@gmail.com"
         }
     ],
-"require": {
-        "silverstripe/framework": "^4 || ^5"
+    "require": {
+        "silverstripe/framework": "^6"
     },
     "autoload": {
         "psr-4": {
