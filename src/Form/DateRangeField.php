@@ -54,8 +54,11 @@ class DateRangeField extends CompositeField
 	{
 		return true;
 	}
-	
-	public function getValue()
+
+    /**
+     * @inheritDoc
+     */
+	public function getValue(): mixed
 	{
 		return $this->value;
 	}
